@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F6F7F9;
+  --foreground: #171717;
+  --hColor: #3563E9;
+  --bgColor: #54A6FF;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.h-color {
+  color: var(--hColor);
+}
+
+.bgColor {
+  background-color: var(--bgColor);
+  color: #fff;
+}
+
+.bgBtn {
+  background-color: #3563E9;
+  color: #fff;
+}
